@@ -1,0 +1,41 @@
+{
+  "name": "vue-admin-cil",
+  "version": "1.0.4",
+  "description": "一个Vue脚手架",
+"type": "module",
+  "main": "index.js",
+  "bin": {
+    "create-vue3-admin-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaothing/vue-admin-cil.git"
+  },
+  "keywords": [
+    "cli",
+    "vue",
+    "admin",
+    "脚手架"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "gaothing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaothing/vue-admin-cil/issues"
+  },
+  "homepage": "https://github.com/gaothing/vue-admin-cil#readme",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "commander": "^9.4.1",
+    "download-git-repo": "^3.0.2",
+    "log-symbols": "^5.1.0",
+    "ora": "^6.1.2",
+    "prompts": "^2.4.2",
+    "vue-admin-cil": "1.0.3"
+  }
+}
