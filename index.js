@@ -36,8 +36,12 @@ const inputList = [
   if (username === 'zdwx' && password === 'zdwx123') {
     const path = root + '/' + projectName;
     fs.mkdirSync(path);
-    await download(`direct:${projectType}`, projectName,path);
-    console.log(`🎈🎈🎈 项目构建完成
+    await download(`direct:${projectType}`, projectName, path);
+    // const data = fs.readFileSync(path + '/package.json');
+    // console.log(Buffer.from(data));
+    console.log(`
+        🎈🎈🎈 项目构建完成
+
         ${chalk.green('cd'+' '+projectName)}
         ${chalk.green('npm install')}
         ${chalk.green('npm run dev')}

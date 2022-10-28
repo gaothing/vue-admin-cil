@@ -1,5 +1,5 @@
 {
-  "name": "zdwx-vue-admin-cli",
+  "name": "zdwx-pro-cli",
   "version": "1.0.3",
   "description": "一个Vue脚手架",
   "type": "module",
@@ -26,7 +26,7 @@
     "url": "https://github.com/gaothing/vue-admin-cil/issues"
   },
   "homepage": "https://github.com/gaothing/vue-admin-cil#readme",
-  "dependencies": {
+  "devDependencies": {
     "chalk": "^5.1.2",
     "download-git-repo": "^3.0.2",
     "ora": "^6.1.2",
